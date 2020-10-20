@@ -25,8 +25,9 @@
 * 动态规划
 ## Computer Network
 * 七层网络模型
-* TCP/UDP
-* HTTPS
+* [TCP](https://tools.ietf.org/html/rfc793)
+* [UDP](https://tools.ietf.org/html/rfc768)
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP#:~:text=Hypertext%20Transfer%20Protocol%20(HTTP)%20is,be%20used%20for%20other%20purposes.)* [HTTPS](https://www.ssl.com/faqs/what-is-https/)
 ## Linux
 * Move: cd, mkdir, ls, pwd, rm, cp, mv
 * Search: grep, find, where, which, locate
@@ -44,9 +45,13 @@
 * Redis, Mysql, RocketMQ/Kafka, Zookeeper, Spring/SpringBoot/SpringCloud
 
 # Book
-* [数据结构](/book/数据结构与算法分析 java语言描述 原书第3版 .pdf)
+* [数据结构](/book/数据结构与算法分析java语言描述原书第3版.pdf)
 * [算法](/book/算法第四版.pdf)
-* [设计模式](/book/数据结构与算法分析 java语言描述 原书第3版 .pdf)
+* [设计模式](/book/HeadFirst设计模式.pdf)
 
+# Ide
+* [Jet Brains Toolbox App](https://www.jetbrains.com/toolbox/app/)(在toolbox中下载各种ide)
+    * [有@edu邮箱](https://www.jetbrains.com/shop/eform/students)
+    * 无@edu邮箱: 破解
 # Reference
 * [Java菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
