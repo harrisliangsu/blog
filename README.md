@@ -4,7 +4,7 @@
 * [Install Thrift](/development/InstallThrift.md)
 * [Spring-Boot Actuator](/development/Spring-Boot-Actuator.md.md)
 * [Spring-Boot Swagger](/development/Spring-Boot-Swagger.md)
-* [New Java Developer Guidance](/development/New Java Developer Guidance.md)
+* [New Java Developer Guidance](/development/NewJavaDeveloperGuidance.md)
 
 ### Others
 * [高效提问](/others/EffectiveAsking.md)
