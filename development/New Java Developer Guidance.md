@@ -55,6 +55,7 @@
 * [数据结构](/book/数据结构与算法分析java语言描述原书第3版.pdf)
 * [算法](/book/算法第四版.pdf)
 * [设计模式](/book/HeadFirst设计模式.pdf)
+* [深入理解Java虚拟机](深入理解Java虚拟机.pdf)
 
 # Ide
 * [Jet Brains Toolbox App](https://www.jetbrains.com/toolbox/app/)(在toolbox中下载各种ide)
