@@ -27,7 +27,8 @@
 * 七层网络模型
 * [TCP](https://tools.ietf.org/html/rfc793)
 * [UDP](https://tools.ietf.org/html/rfc768)
-* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP#:~:text=Hypertext%20Transfer%20Protocol%20(HTTP)%20is,be%20used%20for%20other%20purposes.)* [HTTPS](https://www.ssl.com/faqs/what-is-https/)
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP#:~:text=Hypertext%20Transfer%20Protocol%20(HTTP)%20is,be%20used%20for%20other%20purposes.)
+* [HTTPS](https://www.ssl.com/faqs/what-is-https/)
 ## Linux
 * Move: cd, mkdir, ls, pwd, rm, cp, mv
 * Search: grep, find, where, which, locate
