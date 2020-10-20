@@ -23,6 +23,12 @@
 * 贪心算法
 * 分治法
 * 动态规划
+## Design Model
+* 建造者模式
+* 单例模式
+* 管擦者模式
+* 策略模式
+* 过滤器模式
 ## Computer Network
 * 七层网络模型
 * [TCP](https://tools.ietf.org/html/rfc793)
@@ -54,5 +60,7 @@
 * [Jet Brains Toolbox App](https://www.jetbrains.com/toolbox/app/)(在toolbox中下载各种ide)
     * [有@edu邮箱](https://www.jetbrains.com/shop/eform/students)
     * 无@edu邮箱: 破解
+
 # Reference
 * [Java菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
+* [设计模式菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
