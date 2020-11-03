@@ -1,13 +1,67 @@
 # Base
 ## Java Base
 * 数据类型
+   * 基本数据类型
+      * 整数类型: byte(1\*8bit), short(2\*8bit), int(4\*8bit), long(8\*8bit)
+      * 浮点型: float(4\*8bit), double(8\*8bit)
+      * boolean(1bit)
+      * char(2\*8bit)
+   * 包装类型
+      * 整数类型: Byte, Short, Integer, Long
+      * 浮点型: Float, Double
+      * Boolean
+      * Charactor
+   * 引用类型
+      * Object: 所有的类都继承了Object类, 所有的类对象都是一个Object
 * 循环语句/条件语句
+   ```Java
+      do {
+         // do something
+      }while()
+   ```
+   ```Java
+      for(int i=0;i<10;i++){
+         // do something
+      }
+   ```
+   ```Java
+      if(){
+      
+      }else if(){
+      
+      }else{
+      
+      }
+   ```
 * 异常
+   * Throwable
+   * 运行时异常: RuntimeException
+   * 检查时异常: Exception
 * IO
 * 集合类
-* 队列
+   * Array: `int[] nums = new int[5]`
+   * List
+      * ArrayList: `List<Integer> nums = new ArrayList<>();`
+      * LinkedList: `List<Integer> nums = new LinkedList<>();`
+   * Set
+      * HashSet: `Set<Integer> nums = new HashSet<>();`
+   * Map: 
+      * HashMap: `Map<String, Integer> nums = new HashMap<>();`
+      * ConccurrentHashMap: `Map<String, Integer> nums = new ConccurrentHashMap<>();`
+   * Queue:
+      * LinkedBlockingQueue
+      * ArrayBlockingQueue
+      * PriorityBlockingQueue
+      * SynchronousQueue
 * 多线程
+   * Thread
+   * Runable
+   * Executor
+   * ThreadPoolExecutor
 * 锁
+   * synchronized
+   * ReentrantLock
+   * AQS
 ## JVM
 * 内存划分
 * GC算法
