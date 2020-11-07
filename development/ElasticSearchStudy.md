@@ -36,3 +36,6 @@ bool 包含如下字句, bool的字句间关系是and, 必须都满足才返回�
 * filter: 必须包含, 在filter上下文, 结果会被缓存
 * should: or
 * must_not: 必须不包含
+
+## Reference
+[Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
