@@ -38,4 +38,6 @@ bool 包含如下字句, bool的字句间关系是and, 必须都满足才返回�
 * must_not: 必须不包含
 
 ## Reference
-[Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+* [search-your-data](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/search-your-data.html)
+* [query-dsl](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+* [search-api](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/search-search.html)
