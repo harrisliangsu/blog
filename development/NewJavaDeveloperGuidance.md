@@ -100,10 +100,25 @@
 
 # Advance
 ## Distribution
+* CAP理论
+* 分布式存储
+* 分布式计算
+* 分布式事务
 ## Micro Service
 ## Hadoop
+* HDFS(大数据文件系统)
+* MapReduce(分布式离线计算) -> Spark(分布式批处理, 流处理) -> Flink(分布式流处理)
+* Hive(大数据结构化数据仓储), Hbase(大数据非结构化数据库)
+* Yarn(大数据资源管理)
+* Flume(海量日志采集)
 ## Middleware
 * Redis, Mysql, RocketMQ/Kafka, Zookeeper, Spring/SpringBoot/SpringCloud
+## Devops
+* Maven(build工具)
+* Git(版本控制)
+* Jeinks/Teamcity(CICD工具)
+* Docker(容器化)
+* k8s(容器管理平台)
 
 # Book
 * [数据结构](/book/数据结构与算法分析java语言描述原书第3版.pdf)
