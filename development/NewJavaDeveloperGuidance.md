@@ -12,7 +12,10 @@
       * Boolean
       * Charactor
    * 引用类型
-      * Object: 所有的类都继承了Object类, 所有的类对象都是一个Object
+      * 强引用: Object, 所有的类都继承了Object类, 所有的类对象都是一个Object
+      * SoftReference: 软引用,内存不足时被回收
+      * WeakReference: 弱引用, 第一次gc时被回收
+      * PhantomReference: 虚引用, 形同虚设
 * 循环语句/条件语句
    ```Java
       do {
@@ -58,6 +61,16 @@
    * Runable
    * Executor
    * ThreadPoolExecutor
+       * corePoolSize: 保持存活的最小线程数量
+       * maximumPoolSize: 最大线程数量
+       * keepAliveTime: 线程最大空闲时间
+       * workQueue: 工作队列
+       * rejectedExecutionHandler: 当线程池满时的拒绝策略
+           * AbortPolicy: 直接拒绝执行
+           * CallerRunsPolicy: 只要线程池没有shutdown就在用户线程执行
+           * DiscardPolicy: 丢弃不执行
+           * DiscardOldestPolicy: 丢弃线程队列最后一个任务, 执行新任务
+       * threadFactory: 线程生成工厂
 * 锁
    * synchronized
    * ReentrantLock
