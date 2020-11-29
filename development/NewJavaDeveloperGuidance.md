@@ -47,23 +47,22 @@
    * Writer -> BufferedWriter, OutputStreamWriter -> FileWriter
 * 集合类
    * Array: `int[] nums = new int[5]`
-   * List
+   * List: 有序, 可重复
       * ArrayList: `List<Integer> nums = new ArrayList<>();`
       * LinkedList: `List<Integer> nums = new LinkedList<>();`
-   * Set
+   * Set: 无序, 不可重复
       * HashSet: `Set<Integer> nums = new HashSet<>();`
-   * Map: 
+   * Map: key-value映射
       * HashMap: `Map<String, Integer> nums = new HashMap<>();`
       * ConccurrentHashMap: `Map<String, Integer> nums = new ConccurrentHashMap<>();`
-   * Queue:
+   * Queue
       * LinkedBlockingQueue
       * ArrayBlockingQueue
       * PriorityBlockingQueue
       * SynchronousQueue
 * 多线程
    * Thread
-   * Runable
-   * Executor
+   * Runable/Executor
    * ThreadPoolExecutor
        * corePoolSize: 保持存活的最小线程数量
        * maximumPoolSize: 最大线程数量
@@ -87,20 +86,38 @@
    * VM Stack: Java虚拟机栈, 存放本地变量表, 操作数栈, 用于方法的执行
    * Native Method Stack: 本地方法栈: 其他语言的栈
 * GC算法
-   * 引用计数
-   * 可达性分析
+   * 引用计数: 对象被引用的次数为0则对象已死, 解决不了对象相互引用的问题
+   * 可达性分析: 判断对象是否有到gc root object的路径
+       * gc root object
+           * Java虚拟机栈中引用的对象
+           * 本地方法栈中引用的对象
+           * 静态变量引用的对象
+           * 常量引用的对象 
+           * 被synchronized持有的对象
+           * Java虚拟机内部的引用
+           * JM XBean, JVM TI中注册的回调, 本地代码缓存
 * GC收集器
+    * Serial/Serial Old: 单线程, 
+    * ParNew: 多线程, 多cpu, 停顿时间比Serial少(ParNew + CMS, ParNew + Serial Old)
+    * Parallel Scavenge（ParallerGC）/Parallel Old: 高吞吐量, 适合在后台运行, 不需要太多交互
+    * CMS(Concurrent Mark Sweep): 低停顿时间, 适合B/S系统, 重视响应速度
+    * G1: 根据region的价值大小依次回收, 新生代和老年代不再物理隔离, 不提供full GC的
 * 类加载机制
+    * 加载: 获取类的二进制流, 生成Class对象
+    * 验证
+    * 准备: 为类变量分配内存, 赋默认值
+    * 解析: 将常量池内的符号引用替换为直接引用(CONSTANT_Class_info -> 地址/句柄/偏移量)
+    * 初始化: 为类变量赋程序员定义的初值
 ## Data Structure
-* 数组
-* 链表: 单链表, 循环双链表
-* 队列
-* 栈
+* 数组: 物理空间连续, 创建时固定大小
+* 链表: 逻辑空间连续, 不固定大小
+* 队列: 先进先出(first in first out:FIFO)
+* 栈: 先进后出
 * 树: 二叉树, 平衡二叉树, 红黑树, B树, B+树
 ## Algorithm
 * 贪心算法
 * 分治法
-* 动态规划
+* 动态规划: 状态转移方程, 二维数组存放子解答
 ## Design Model
 * 建造者模式
 * 单例模式
@@ -159,5 +176,3 @@
 * [Java菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
 * [设计模式菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 * [数据结构和算法动态可视化](https://visualgo.net/zh)
-
-
