@@ -41,6 +41,10 @@
    * 运行时异常: RuntimeException
    * 检查时异常: Exception
 * IO
+   * InputStream -> FileInputStream, ObjectInputStream
+   * OutputStream -> FileOutputStream, ObjectOutputStream
+   * Reader -> BufferedReader, InputStreamReader -> FileReader
+   * Writer -> BufferedWriter, OutputStreamWriter -> FileWriter
 * 集合类
    * Array: `int[] nums = new int[5]`
    * List
@@ -77,7 +81,14 @@
    * AQS
 ## JVM
 * 内存划分
+   * PC Register,程序计数器, 保存着每一条线程下一次执行指令位置
+   * Heap: 堆, 存放Java对象
+   * Method Area: 元空间/永久代/方法区, 常量, 静态变量, 类信息
+   * VM Stack: Java虚拟机栈, 存放本地变量表, 操作数栈, 用于方法的执行
+   * Native Method Stack: 本地方法栈: 其他语言的栈
 * GC算法
+   * 引用计数
+   * 可达性分析
 * GC收集器
 * 类加载机制
 ## Data Structure
