@@ -3,6 +3,7 @@
 * 数据类型
 <details>
 <summary>展开查看</summary>
+ 
   * 基本数据类型
       * 整数类型: byte(1\*8bit), short(2\*8bit), int(4\*8bit), long(8\*8bit)
       * 浮点型: float(4\*8bit), double(8\*8bit)
@@ -18,6 +19,7 @@
       * SoftReference: 软引用,内存不足时被回收
       * WeakReference: 弱引用, 第一次gc时被回收
       * PhantomReference: 虚引用, 形同虚设
+      
 </details>
 * 循环语句/条件语句
    ```Java
