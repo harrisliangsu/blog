@@ -66,10 +66,10 @@
        * keepAliveTime: 线程最大空闲时间
        * workQueue: 工作队列
        * rejectedExecutionHandler: 当线程池满时的拒绝策略
-           * AbortPolicy: 直接拒绝执行
+           * AbortPolicy: 直接抛出异常
            * CallerRunsPolicy: 只要线程池没有shutdown就在用户线程执行
            * DiscardPolicy: 丢弃不执行
-           * DiscardOldestPolicy: 丢弃线程队列最后一个任务, 执行新任务
+           * DiscardOldestPolicy: 丢弃线程队列首个任务, 执行新任务
        * threadFactory: 线程生成工厂
 * 锁
    * synchronized
